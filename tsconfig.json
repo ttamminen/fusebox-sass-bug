@@ -1,0 +1,34 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "lib": [
+          "dom",
+          "es2015",
+          "es2015.promise",
+          "es2016"
+      ],
+      "jsx": "react",
+      "target": "es3",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noImplicitAny": false,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "skipLibCheck": false,
+      "strictNullChecks": true,
+      "types": [
+          "jest",
+          "node"
+      ],
+      "typeRoots": [
+          "node_modules/@types"
+      ]
+  },
+  "exclude": [
+      "node_modules"
+  ]
+}
